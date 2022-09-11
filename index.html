@@ -282,29 +282,64 @@ body{
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 375px) {
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    padding: 15px;
+}
+
+.cabecalho-imagem{
+    height: 40px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 8px; 
+}
 
 .cabecalho-menu-item{
     font-family: 'Sarala', sans-serif;
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 9px;
     text-decoration: none;   
+}
+
+.cabecalho-menu-item:hover {
+    color: #87CEFA;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #E5E5E5;
+}
+
+.conteudo-primeira{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
 }
 
 .conteudo-primeira-titulo{
     font-family: 'Staatliches', cursive;
     color: #5ACD97;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 55px;
 }
 
 .conteudo-primeira-subtitulo{
     font-family: 'Sarala', sans-serif;
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    font-size: 25px;
-    padding-block-end: 40px;
+    font-size: 20px;
+    padding-block-end: 20px;
+    text-align: center;
 }
 
 .conteudo-segundo{
@@ -320,14 +355,14 @@ body{
     font-family: 'Staatliches', cursive;
     color: #5ACD97;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .conteudo-segundo-subtitulo{
     font-family: 'Sarala', sans-serif;
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .conteudo-segundo-2{
@@ -345,11 +380,10 @@ body{
 .conteudo-segundo-paragrafo{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 25px;
-    text-align: justify;
+    text-align: center;
     color: #FFFFFF;
-
 }
 
 .conteudo-terceiro{
@@ -357,7 +391,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 40px;
+    padding: 10px;
 }
 
 .conteudo-terceiro1{
@@ -365,7 +399,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 30px;
+    padding: 20px;
 }
 
 .conteudo-terceiro-texto-titulo{
@@ -373,7 +407,7 @@ body{
     font-family: 'Staatliches', cursive;
     color: #5ACD97;
     font-weight: 400px;
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -381,14 +415,14 @@ body{
     font-family: 'Sarala', sans-serif;
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px;
     text-align: center;
 }
 .conteudo-terceiro-texto-paragrafo{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 41px;
     text-align: center;
     color: #FFFFFF;
@@ -397,11 +431,11 @@ body{
 .conteudo-terceiro-texto-titulo3{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 41px;
     text-align: center;
     color: #FFFFFF;
-    padding:50px;
+    padding: 20px;
 }
 
 .conteudo-terceiro-img{
@@ -409,10 +443,10 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 30px;
+    gap: 20px;
 }
 .conteudo-terceiro-img-pessoa{ 
-    height: 140px;
+    height: 100px;
 }
 
 .nomes-terceiro-img{
@@ -420,7 +454,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 120px;
+    gap: 70px;
 }
 
 .conteudo-terceiro-img-paragrafo{
@@ -450,28 +484,29 @@ body{
     font-family: 'Staatliches', cursive;
     color: #5ACD97;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 50px;
 }  
 
 .conteudo-quarto-subtitulo{
     font-family: 'Sarala', sans-serif;
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    font-size: 25px;
-    line-height: 65px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
 }
 
 .conteudo-quarto-paragrafo{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 41px;
     text-align: center;
     color: #FFFFFF;
 }
 
 .conteudo-quarto-botao{
-    width: 270px;
+    width: 240px;
     height: 50px;
     background: rgba(217, 217, 217, 0.76);
     border-radius: 20px;
