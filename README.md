@@ -2,7 +2,10 @@
 
 Trabalho de Conclusão de Curso COTUCA <br>
 
-<a href="https://ol-anaa.github.io/YaraPagWeb/">🌐</a> Link página
+   <a href="https://ol-anaa.github.io/YaraPagWeb/">🌐</a> Link página </br>
+   
+   <a href="https://github.com/ol-anaa/Flutter">📱</a> Aplicativo </br>
+   <a href="https://github.com/Adriysun/NodeAPI_TCC">🐘</a> API Rest
 
 <hr/>
 <h3>Autora:</h3>
