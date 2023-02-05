@@ -2,7 +2,7 @@
 
 Trabalho de Conclusão de Curso COTUCA <br>
 
-🌐 Link página: https://ol-anaa.github.io/YaraPagWeb/
+<a href="https://ol-anaa.github.io/YaraPagWeb/">🌐</a> Link página
 
 <hr/>
 <h3>Autora:</h3>
